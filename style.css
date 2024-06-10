@@ -1,0 +1,147 @@
+* {
+    background-color: aliceblue;
+    
+}
+
+.container {
+    border: 10px solid #005c78ef;
+    width: 100%;
+    height: 900PX;
+    
+    
+}
+.arrow {
+    color: rgba(0, 0, 0, 0.329);
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.arrow-2 {
+    color: bisque;
+    font-size: 35px;
+}
+.logo {
+    margin: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900PX;
+    
+}
+.images-container {
+    width: 80%;
+    position: relative;
+    left: 08%;
+    border:10px solid #006989;
+    border-radius: 5%;
+    height: 700PX;
+    
+
+}
+.bmi-container {
+    position: absolute;
+    width: 40%;
+    background-color: azure;
+    top: 50%;
+    left: 30%;
+    height: 400PX;
+    align-items: center;
+    color:  #543310;
+    text-align: center;
+    background-color: aliceblue;
+}
+.bmi-w-container {
+    display: flex;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    border: solid white 1px;
+    border-radius: 04px;
+} 
+.bmi-h-container {
+    display: flex;
+    top: 50%;
+    position: absolute;
+    left: 15%;
+    border: solid white 1px;
+    border-radius: 4px;
+}
+
+.bmi-container-logo {
+    font-size: 30px;
+    font-weight: 900px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bmi-container-desc { 
+    font-weight: 500;
+    font-size: 15px;
+}
+.bmi-w-container {
+    background-color:#e88e6727 ;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+} 
+.bmi-h-container {
+    background-color:#e88e6727 ;
+    align-items: center;
+    width: 70%;
+}
+.bmi-w {
+    background-color:#e88e6700;
+    font-weight: 100; 
+    font-size: 12px;
+    text-align: center;
+}
+.bmi-h {
+    background-color: #e88e6700;
+    font-weight: 100;
+    font-size: 12px;
+    text-align: center;
+}
+.bmi-w-unit {
+    position: absolute;
+    right: 5%;
+    width: 25px;
+    background-color:#e88e6700;
+    border:solid 3px;
+    border-radius: 40%;
+    font-size: 20px;
+    font-weight: 200;
+}
+.bmi-h-unit {
+    position: absolute;
+    background-color: #e88e6700;
+    right: 5%;
+    width: 25px;
+    border: solid 3px;
+    border-radius: 40%;
+    font-size: 20px;
+    font-weight: 200;
+}
+.col {
+    position: absolute;
+}
+
+.bmi-calculator {
+    position: absolute;
+    top: 70%;
+    align-items: center;
+    text-align: center;
+    left: 23%;
+    background-color: rgba(255, 217, 0, 0.096);
+    height: 50px;
+    width: 50%;
+    border:solid rgba(255, 217, 0, 0.292) ;
+    border-radius: 6px;
+}
+.c {
+    background-color: rgba(255, 217, 0, 0);
+    color: rgba(255, 217, 0, 0.422);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    align-self: center;
+    position: absolute;
+    top: -9%;
+    left: 25%;
+}
